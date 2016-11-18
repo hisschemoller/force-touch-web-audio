@@ -1,0 +1,53 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+}
+body {
+    background-color: #660;
+    font-family: sans-serif;
+    color: #cc9;
+    margin: 0;
+}
+.controls {
+}
+    .controls__freq {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 50px 0 20px 0;
+        text-align: center;
+    }
+    .controls__freq-amount {
+        font-size: 4rem;
+    }
+    .controls__btn {
+        background-color: #fc0;
+        border: 8px solid #cc9;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        border-radius: 80px;
+        cursor: pointer;
+        height: 160px;
+        left: 50vw;
+        position: absolute;
+        top: 50vh;
+        transform: translate(-50%, -50%);
+        width: 160px;
+    }
+.overlay {
+    background-color: rgba(102, 102, 0, 0.95);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}    
+    .overlay--startup__header {
+        display: block;
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 80px;
+        text-align: center;
+    }
