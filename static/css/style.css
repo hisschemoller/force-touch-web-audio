@@ -51,3 +51,18 @@ body {
         margin-top: 80px;
         text-align: center;
     }
+    
+@media screen and (max-height: 400px) {
+    .controls__freq {
+        height: 100vh;
+        margin-bottom: auto;
+        margin-top: auto;
+        width: 50%;
+    }
+        .controls__freq-amount {
+            line-height: 100vh;
+        }
+    .controls__btn {
+        left: 70vw;
+    }
+}
